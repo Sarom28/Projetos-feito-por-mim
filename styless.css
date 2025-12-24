@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./1350183.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+ width: 420px;
+ background-color: rgba(0, 0, 0, 0.3);
+ border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 30px 40px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    height: 40px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 40px;
+    outline: none;
+    font-size: 18px;
+    color: #736262;
+    padding: 20px 45px 20px 20px;
+    margin: 5px;
+}
+
+.input-box input::placeholder{
+    color: #ffff;
+}
+
+.remember-forgot{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0 5px 0;
+}
+
+.remember-forgot label input{
+    accent-color: #000000;
+    margin-right: 4%;
+}
+.remember-forgot a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(255, 27, 27, 0.2);
+    margin-top: 20px;
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid #403a3a;
+    background-color: #e0e0e0;
+    transition: 0s;
+
+}
+
+.register-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link a:hover{
+    text-decoration: underline;
+}
