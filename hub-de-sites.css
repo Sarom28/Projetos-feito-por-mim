@@ -1,0 +1,99 @@
+*{
+    font-family: "Ubuntu", sans-serif;;
+    background-color: black;
+}
+
+.cabecalho{
+    
+    border: 4px solid #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    text-shadow: #ffffff 2px 2px 30px;
+    background-image: url('./espaco2.webp');
+    box-shadow: #ffffff 0px 0px 20px;
+
+}
+
+.cabecalho h1{
+    font-size: 50px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: transparent;
+}
+.cabecalho h2{
+    font-size: 25px;
+    color: #ffffff;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.logo-youtube, .logo-grok, .logo-github, .logo-fonts-google{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.bn-youtube, .bn-grok, .bn-github, .bn-fonts-google{
+    background-color: black;
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 40px;
+    width: 330px;
+    height: 330px;
+    cursor: pointer;
+    margin-top: 10px;
+
+
+
+
+}
+
+.bn-youtube:hover, .bn-grok:hover, .bn-github:hover, .bn-fonts-google:hover{
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.6);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.nome-yt, .nome-grok, .nome-github, .nome-fonts-google{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-shadow: #ffffff 1px 2px 8px;
+    
+
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    background-color: black;
+
+}
+
+.rodape{
+    border-top: 4px solid #ffffff;
+    text-align: center;
+    padding: 118px;
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: transparent;
+    box-shadow: #ffffff 0px 0px 20px;
+    background-image: url('./espaco2.webp');
+    border-radius: 20px;
+
+}
+.rodape h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+.rodape p{
+    font-size: 15px;
+    background-color: transparent;
+}
